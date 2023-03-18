@@ -6,7 +6,8 @@ import stripe from './Images/stripe.png'
 import { motion } from 'framer-motion'
 function TechCo() {
   return (
-    <motion.div 
+    <div className='techCos-container'>
+         <motion.div 
     className='TechCos'
     initial={{ opacity: 0 }}
     whileInView={{ opacity: 1 }}
@@ -27,6 +28,8 @@ function TechCo() {
             <img src={quartz} alt="bloomberg logo"></img>
         </div>
     </motion.div>
+    </div>
+   
   )
 }
 

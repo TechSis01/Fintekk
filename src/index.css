@@ -227,10 +227,12 @@ nav {
 }
 
 /* =======================TECH COMPANIES ICON========================= */
+.techCos-container{
+  background-color: #fbfbfb;
+}
 .TechCos {
   display: flex;
   justify-content: space-around;
-  background-color: #fbfbfb;
   padding: 2em 2em 2em 2em;
   margin-top: 2em;
 }
@@ -465,8 +467,8 @@ nav {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  height: 50%;
-  width: 5%;
+  /* height: 90px;  */
+  width: 160%;
 }
 .testimonial-number {
   padding: 0.5em;
@@ -475,11 +477,13 @@ nav {
   border-radius: 50%;
   text-align: center;
   color: #fff;
+  line-height: 30px;
 }
 .each-numbers {
   margin-top: 1em;
   cursor: pointer;
   padding: 0.5em;
+  line-height: 30px;
 }
 .arrow {
   margin-bottom: 0.5em;
@@ -500,6 +504,9 @@ nav {
 }
 .arrow-down{
   margin-top:1em;
+}
+.arrow, .arrow-left, .arrow-right, .arrow-down {
+  /* background-color: transparent; */
 }
 
 /* ==============SIGNUP================= */
@@ -848,9 +855,10 @@ footer {
     position: absolute;
     right: 1.3rem;
     top: 8.5rem;
-    display: flex;
+    justify-content: flex-start;
     flex-direction: column;
     height: 100vh;
+   
     background-color: #172e80;
     color: #fff;
     width:100%;
@@ -871,16 +879,19 @@ footer {
     top:100%;
     right:52%;
     width:min-content;
+    z-index: -1;
   }
   .saving-icon{
     top:95%;
     right:4%;
     width:min-content;
+    z-index: -1;
   }
   .investment-icon{
     top:112%;
     right:10%;
     width:min-content;
+    z-index: -1;
   }
   .nav-list-container li{
     margin-bottom: 3em;
@@ -942,6 +953,7 @@ footer {
   .lady-container{
     margin:0 auto;
     width:80%;
+    z-index: -1;
   }
   .lady-container img{
     width:100%;
@@ -952,13 +964,30 @@ footer {
     font-size:4.0rem;
     font-weight: bold;
   }
+  .techCos-container{
+ 
+
+  }
   .TechCos {
     justify-content: space-around;
-    overflow: scroll;
+    overflow: hidden;
+    width: 100%;
     align-items: center;
+    animation: marquee 5s linear infinite;
+    /* white-space: nowrap; */
   }
   .TechCos img {
-    width: 100%;
+    width: 83px;
+    /* margin-right: 20px; */
+    padding-left:25%;
+  }
+  @keyframes marquee {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
   }
   .services-container {
     grid-template-columns: 1fr;
