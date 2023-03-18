@@ -1,0 +1,1135 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+body {
+  font-size: 1.6rem;
+  overflow-x: hidden;
+}
+
+/* LOGIN BUTTON */
+.login-btn {
+  font-weight: 500;
+  border: 1px solid #2e5cff;
+  padding: 0.5em 2em;
+  color: #2e5cff;
+  background-color: #fff;
+  border-radius: 16px;
+}
+/* SIGN UP BUTTON */
+.sign-up-btn {
+  border: none;
+  padding: 0.5em 1em;
+  color: #fff;
+  background-color: #2e5cff;
+  border-radius: 16px;
+}
+.sign-up-btn:hover {
+  background-color: #0b07cd;
+}
+.sign-up-btn-2 {
+  border: none;
+  padding: 1em 2em;
+  color: #fff;
+  background-color: #2e5cff;
+  border-radius: 16px;
+}
+/* =====DOWNLOAD BUTON====== */
+.download-btn {
+  width: 60%;
+  margin: 0 auto;
+}
+.download-btn button {
+  background-color: #2e5cff;
+  color: #fff;
+  outline: none;
+  border: none;
+  padding: 0.2em 2em;
+  border-radius: 1.6rem;
+}
+.download-btn button:hover {
+  background-color: #0b07cd;
+}
+.try-btn-container {
+  width: 60%;
+  margin: 0 auto;
+  display: none;
+}
+.try-btn {
+  background-color: #2e5cff;
+  color: #fff;
+  outline: none;
+  border: none;
+  padding: 0.2em 2em;
+  border-radius: 1.6rem;
+}
+.try-btn:hover {
+  background-color: #0b07cd;
+}
+/* NAVBAR */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5em 6em 1.5em 6em;
+  border-bottom: 1px solid #e9ecef;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.nav-list-buttons-container{
+  display: flex;
+  justify-content: space-around;
+  width:100%;
+  align-items: center;
+}
+.brand-name {
+  color: #2e5cff;
+}
+.brand-name h3 {
+  font-size: 2.8rem;
+}
+.nav-list-container {
+  width: 50%;
+}
+.nav-list-container ul,
+.registry-buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-list-container ul li {
+  list-style: none;
+}
+.nav-list-container ul li a {
+  text-decoration: none;
+  color: #171717;
+}
+.nav-list-container ul li a:hover {
+  background-color: blue;
+}
+.registry-buttons {
+  width: 25%;
+}
+.hamburger {
+  display: none;
+}
+.line {
+  width: 30px;
+  height: 2px;
+  background-color: #0b07cd;
+  margin: 0.5rem;
+}
+/* ============HERO===SECTION======= */
+.hero {
+  display: flex;
+  /* align-items: center; */
+  padding: 3em 0em;
+  justify-content: space-around;
+}
+.apple-logo,
+.playstore-logo {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #3a3a3a80;
+  font-size: 1.3rem;
+  place-items: center;
+  padding: 0em 1em 0em 1em;
+  border-radius: 8px;
+  /* width:50%; */
+}
+.device-download-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3em;
+  width: 60%;
+}
+.lady-container {
+  position: relative;
+  width: max-content;
+}
+.lady-container img {
+  width: 100%;
+}
+.payment-icon {
+  color: #172e80;
+  font-weight: 600;
+  width: min-content;
+  position: absolute;
+  top:65%;
+  right:37%;
+  padding: 1em;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #e9ecef;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: #fff;
+}
+.saving-icon {
+  color: #172e80;
+  font-weight: 600;
+  width: min-content;
+
+  position: absolute;
+  top:45%; 
+   right:3%;
+  padding: 1em;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #e9ecef;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: #fff;
+}
+.investment-icon {
+  color: #172e80;
+  font-weight: 600;
+  width: min-content;
+
+  position: absolute;
+  top:100%;
+  right:5%;
+  padding: 1em;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #e9ecef;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: #fff;
+}
+/*================ CALL TO ACTION==================== */
+.cta-container {
+  width: 35%;
+}
+.cta-container h1 {
+  font-size: 5rem;
+  color: #172e80;
+}
+#cta-pitch {
+  line-height: 34px;
+  padding-bottom: 2em;
+  font-size: 2.4rem;
+}
+.cta-container p {
+  color: #777777;
+  margin-top: 1em;
+}
+
+/* =======================TECH COMPANIES ICON========================= */
+.TechCos {
+  display: flex;
+  justify-content: space-around;
+  background-color: #fbfbfb;
+  padding: 2em 2em 2em 2em;
+  margin-top: 2em;
+}
+
+/* ============================TRUST SECTION====================================== */
+.Trust-section {
+  padding: 6em 0em 6em 0em;
+}
+.Trust-section h2 {
+  text-align: center;
+  color: #172e80;
+  font-size: 5rem;
+  width: 60%;
+  margin: 0 auto;
+}
+.Trust-section span {
+  color: #2e5cff;
+}
+
+/* ==================SERVICES====================== */
+.full-services-container {
+  background-color: #fbfbfb;
+  padding: 2em 2em;
+}
+.services-header {
+  text-align: center;
+  padding: 5em 0em;
+  line-height: 45px;
+}
+.services-header h3 {
+  color: #3a3a3a;
+  font-size: 2.4rem;
+}
+.services-header h2 {
+  color: #172e80;
+  font-size: 5rem;
+}
+.services-header p {
+  color: #777777;
+  font-size: 2rem;
+  width: 60%;
+  margin: 1em auto;
+}
+.services-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+  /* gap:10px; */
+}
+.offers {
+  background-color: #f4f6ff;
+  width: 80%;
+  padding: 2em 1em;
+  border-radius: 30px;
+  line-height: 30px;
+}
+.offers h2 {
+  color: #172e80;
+  font-weight: bold;
+}
+.offers-pitch {
+  width: 90%;
+  color: #777777;
+  word-spacing: 15px;
+  padding-top: 1em;
+}
+.offers img {
+  width: 100%;
+}
+.offers p:nth-child(3) {
+  color: #2e5cff;
+}
+.investment-container {
+  background-color: #fef7f1;
+  width: 80%;
+  padding: 2em 1em;
+  border-radius: 30px;
+  line-height: 30px;
+}
+.investment-container h2 {
+  color: #172e80;
+}
+.investment-container p:nth-child(3) {
+  color: #2e5cff;
+}
+.investment-container img {
+  width: 100%;
+}
+
+/* ===============PROCEDURES============== */
+.procedure-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffffff;
+  padding: 10em 0em;
+}
+.steps-container {
+  margin-left: 15em;
+}
+.steps-container-div {
+  padding-left: 2.5em;
+  padding-bottom: 3.5em;
+}
+.steps-container-div h3 {
+  color: #172e80;
+  font-weight: bold;
+}
+.steps-container-div :nth-child(2) {
+  width: 70%;
+  color: #777777;
+  font-size: 2rem;
+}
+.steps-header {
+  width: 100%;
+}
+.steps-header h1 {
+  color: #172e80;
+  line-height: 60px;
+  word-spacing: 25px;
+  letter-spacing: 2px;
+  font-size: 5rem;
+  font-weight: bold;
+}
+.mobile-container {
+  padding-top: 5em;
+  padding-left: 4em;
+}
+.mobile-container img {
+  width: 100%;
+}
+.numbers-steps-container {
+  display: flex;
+  line-height: 45px;
+  justify-content: flex-end;
+  padding-top: 5em;
+}
+.numbers {
+  display: flex;
+  flex-direction: column;
+  color: #2e5cff;
+  font-weight: bold;
+}
+.number-borders {
+  height: 150px;
+  width: 1px;
+  background-color: #2e5cff;
+  align-self: center;
+}
+
+/* FAQ CONTENT CONTAINER============================================== */
+.overall-faq-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.faq-image {
+  width: 100%;
+}
+.faq-content-container {
+  background-color: #2e5cff;
+  width: 100%;
+  padding: 8em 2.5em 2.5em 3.5em;
+}
+.faq-content-container h1 {
+  font-size: 6.7rem;
+  color: #fff;
+}
+.accordion .item {
+  padding: 1.5rem 1rem;
+  border: 0;
+  background-color: #2e5cff;
+  margin-top: 2em;
+}
+.accordion .item .accordion-header button {
+  background-color: #2e5cff;
+  color: #fff;
+  border: 1px solid #fffefd;
+  font-size: 1.8rem;
+  padding: 1em;
+  outline: none;
+}
+.faq-content-p {
+  background-color: #fff;
+  color: #2e5cff;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  line-height: 30px;
+}
+.accordion .item .accordion-header button::after {
+  transition: all 0.6s ease;
+  filter: #fff;
+}
+.accordion .item .accordion-collapse {
+  transition: all 0.4s ease;
+}
+.item .accordion-button::after {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
+/* =================TESTIMONIAL SECTION============================================ */
+.testimonial-container {
+  background-color: #fbfbfb;
+  display: flex;
+  justify-content: space-around;
+  margin: 6em 0em;
+  padding: 5em 4em;
+  align-items: center;
+}
+.testimonial-container h3 {
+  color: #3a3a3a;
+  font-size: 2.4rem;
+}
+.testimonial-container h2 {
+  color: #172e80;
+  font-size: 5rem;
+  width: 100%;
+}
+.testimonials {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.individual-testimonials {
+  background-color: #fff;
+  max-width: 60%;
+  padding: 3em;
+  border-radius: 10px;
+  line-height: 30px;
+}
+.numbers-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 50%;
+  width: 5%;
+}
+.testimonial-number {
+  padding: 0.5em;
+  width: 100%;
+  background-color: #172e80;
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+}
+.each-numbers {
+  margin-top: 1em;
+  cursor: pointer;
+  padding: 0.5em;
+}
+.arrow {
+  margin-bottom: 0.5em;
+  cursor: pointer;
+}
+.arrow-left {
+  display: none;
+}
+.arrow-right {
+  display: none;
+}
+.rated {
+  font-size: 2rem;
+  color: #fac12f;
+}
+.non-rated {
+  font-size: 2rem;
+}
+.arrow-down{
+  margin-top:1em;
+}
+
+/* ==============SIGNUP================= */
+.sign-up-container {
+  background-color: #2e5cff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 10em 0em;
+}
+.sign-up-container h1 {
+  color: #fff;
+  font-size: 5rem;
+  width: 36%;
+  text-align: center;
+}
+.input-container {
+  border: 1px solid #fff;
+  border-radius: 30px;
+  width: 50%;
+  display: flex;
+  margin-top: 2em;
+}
+.input-container input {
+  outline: none;
+  border: none;
+  background-color: #2e5cff;
+  border-radius: 30px;
+  width: 100%;
+  padding-left: 2em;
+  color: #fff;
+}
+::placeholder {
+  color: #fff;
+}
+.input-container button {
+  width: 30%;
+  background-color: #fff;
+  padding: 1em;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  margin: 0.2em;
+}
+.input-container button:hover {
+  background-color: #e9ecef;
+}
+
+/* ==============FOOTER======================== */
+footer {
+  background-color: #fbfbfb;
+  padding: 4em;
+  margin-top: 5em;
+}
+#fintekk-about {
+  color: #777777;
+  width: 90%;
+  padding-top: 1em;
+}
+.bold {
+  font-weight: bold;
+  color: #172e80;
+}
+.footer-links-container {
+  display: flex;
+  justify-content: space-between;
+}
+.fintekk-footer {
+  width: 30%;
+}
+.fintekk-footer h2 {
+  font-size: 3.2rem;
+}
+.footer-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: space-around;
+  color: #172e80;
+  padding-right: 10em;
+  grid-gap: 20%;
+}
+.footer-links p {
+  width: 140%;
+}
+.twitter-link {
+  text-decoration: none;
+  color: #172e80;
+}
+.copyright-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5em;
+  color: #172e80;
+  font-weight: bold;
+}
+
+/* ==================MEDIA QUERIES================================ */
+
+@media screen and (769px <= width <= 1080px) {
+  nav {
+    padding: 1.5em 3.3em;
+  }
+  .registry-buttons {
+    width: 45%;
+  }
+  .cta-container {
+    width: 40%;
+  }
+  .device-download-buttons {
+    width: 70%;
+  }
+  .payment-icon{
+      right:43%;
+    }
+    .saving-icon{
+      right:1%;
+    }
+    .investment-icon{
+      top:80%;
+      right:2%;
+    }
+  .steps-container {
+    margin-left: 5em;
+  }
+  .steps-header h1 {
+    font-size: 4rem;
+  }
+  .testimonial-container h2 {
+    font-size: 4.5rem;
+  }
+  .numbers-container {
+    width: 6%;
+  }
+  .individual-testimonials {
+    max-width: 75%;
+  }
+  .sign-up-container h1 {
+    width: 50%;
+  }
+  .footer-links {
+    padding-right: 5em;
+  }
+}
+
+@media screen and (481px <= width <= 990px) {
+  nav {
+    padding: 1.5em 1em;
+    font-size: 1.4rem;
+    position: relative;
+  }
+  .registry-buttons {
+    width: 40%;
+  }
+
+  .hero {
+    flex-direction: column;
+    align-items: center;
+  }
+  .payment-icon{
+    top:80%;
+    right:62%;
+    width:22%;
+  }
+  .saving-icon{
+    top:70%;
+    right:15%;
+    width:22%;
+  }
+  .investment-icon{
+    top:100%;
+    right:15%;
+    width:22%;
+  }
+  .cta-container {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .cta-container h1 {
+    text-align: center;
+  }
+  .cta-container p {
+    text-align: center;
+  }
+  
+  .device-download-buttons {
+    margin: 2em auto;
+    flex-direction: column;
+  }
+  .playstore-logo,
+  .apple-logo {
+    width: 40%;
+    margin: 1em auto;
+  }
+  .sign-up-btn-container {
+    width: 65%;
+    margin: 0 auto;
+  }
+  #cta-pitch {
+    font-size:2.0rem;
+  }
+  .sign-up-btn-2{
+    margin-left:25%;
+  }
+  .TechCos {
+    justify-content: space-around;
+    overflow: scroll;
+    align-items: center;
+  }
+  .TechCos img {
+    width: 120px;
+  }
+  .services-container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .offers {
+    width: 70%;
+  }
+  .investment-container {
+    width: 70%;
+    font-size: 1.8rem;
+  }
+  .investment-container h2 {
+    font-weight: bold;
+    font-size: 1.8rem;
+  }
+  .procedure-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .steps-container{
+    margin:0;
+  }
+  .steps-header h1 {
+    text-align: center;
+    font-size:4.0rem;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+    font-weight: bold;
+  }
+  .steps-container-div h3{
+    margin-top:1.5%;
+  }
+  .mobile-container {
+    padding-left: 0em;
+  }
+  .steps-header {
+    width: 80%;
+    margin: 6em auto;
+  }
+  .download-btn {
+    display: none;
+  }
+  .try-btn{
+    padding:0.1em 2em;
+  }
+  .try-btn-container {
+    display: unset;
+    margin-left:2.5em;
+  }
+  .overall-faq-container {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .faq-image {
+    width: 100%;
+  }
+  .faq-image img {
+    width: 100%;
+  }
+  .testimonial-container {
+    flex-direction: column;
+  }
+  .testimonials {
+    flex-direction: column;
+  }
+  .testimonial-container h3 {
+    text-align: center;
+  }
+  .testimonial-container h2 {
+    text-align: center;
+  }
+  .numbers-container {
+    flex-direction: row;
+    width: 45%;
+    margin-top: 1em;
+    padding: 2em 0em;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .testimonial-number {
+    width: 15%;
+    /* height: 40px; */
+  }
+  .each-numbers {
+    width: 15%;
+    text-align: center;
+    border-radius: 50%;
+    /* height: 40px; */
+  }
+  .arrow-left {
+    display: unset;
+  }
+  .arrow-right {
+    display: unset;
+  }
+  .arrow {
+    display: none;
+  }
+  .arrow-down {
+    display: none;
+  }
+  .sign-up-container h1 {
+    width: 70%;
+  }
+  .input-container {
+    width: 70%;
+  }
+  #fintekk-about {
+    width: 100%;
+  }
+  .footer-links {
+    grid-template-columns: 1fr 1fr;
+    gap: 10%;
+    padding-right: 2em;
+  }
+  .copyright-container {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (width <= 480px) {
+  .hamburger {
+    display: unset;
+  }
+  nav {
+    padding: 1.5em 1em;
+    font-size: 1.4rem;
+    position: relative;
+  }
+  .nav-list-buttons-container {
+    position: absolute;
+    right: 1.3rem;
+    top: 8.5rem;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #172e80;
+    color: #fff;
+    width:100%;
+    transform: translateX(-420px);
+    transition: all 0.5s ease;
+  }
+  .nav-list-container ul,
+  .registry-buttons {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .registry-buttons{
+    height:15%;
+    justify-content: space-around;
+    padding-left:4%;
+  }
+  .payment-icon{
+    top:100%;
+    right:52%;
+    width:min-content;
+  }
+  .saving-icon{
+    top:95%;
+    right:4%;
+    width:min-content;
+  }
+  .investment-icon{
+    top:112%;
+    right:10%;
+    width:min-content;
+  }
+  .nav-list-container li{
+    margin-bottom: 3em;
+    margin-top:2em;
+  }
+  .nav-list-container ul li a{
+    color: #fff;
+  }
+  .nav-list-container {
+    width: 100%;
+  }
+  .registry-buttons {
+    width: 100%;
+  }
+  .hero {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cta-container {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .cta-container h1 {
+    text-align: center;
+  }
+  .cta-container p {
+    text-align: center;
+  }
+  .device-download-buttons {
+    margin: 2em auto;
+    flex-direction: column;
+  }
+  .playstore-logo,
+  .apple-logo {
+    width: 80%;
+    margin: 1em auto;
+  }
+  .cta-container {
+    width: 100%;
+    padding:1em 2em;
+  }
+  .cta-container h1 {
+    font-size: 4.0rem;
+    font-weight:bold;
+  }
+  .sign-up-btn-container {
+    width: 65%;
+    margin: 0 auto;
+  }
+  #cta-pitch {
+    font-size:1.6rem;
+  }
+  .sign-up-btn-2{
+    margin-left:12%;
+  }
+  .hero{
+    width:100%;
+  }
+  .lady-container{
+    margin:0 auto;
+    width:80%;
+  }
+  .lady-container img{
+    width:100%;
+    margin:0 auto;
+  }
+  .Trust-section h2 {
+    width: 100%;
+    font-size:4.0rem;
+    font-weight: bold;
+  }
+  .TechCos {
+    justify-content: space-around;
+    overflow: scroll;
+    align-items: center;
+  }
+  .TechCos img {
+    width: 100%;
+  }
+  .services-container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .services-header {
+    line-height: 30px;
+  }
+  .services-header h2 {
+    font-size: 4.0rem;
+    font-weight: bold;
+  }
+  .services-header p {
+    width: 100%;
+    font-size:1.6rem;
+  }
+  .offers {
+    width: 100%;
+    font-size: 1.6rem;
+  }
+  .offers h2{
+    font-weight: bold;
+    font-size: 2.0rem; 
+  }
+  .investment-container {
+    width: 100%;
+    font-size: 1.6rem;
+  }
+  .investment-container h2 {
+    font-weight: bold;
+    font-size: 2.0rem;
+  }
+  .procedure-container {
+    flex-direction: column;
+    align-items: center;
+    padding:10em 2em;
+  }
+  .steps-header h1 {
+    text-align: center;
+  }
+  .steps-container-div{
+    margin-top:0.9em;
+  }
+  .steps-container-div :nth-child(2) {
+    width: 100%;
+    font-size:1.6rem;
+  }
+  .steps-header {
+    width: 100%;
+    margin: 6em auto;
+  }
+  .steps-container{
+    margin:0;
+  }
+  .steps-header h1 {
+    font-size:3.0rem;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+  }
+  .mobile-container {
+    padding-left: 0em;
+  }
+  .download-btn {
+    display: none;
+  }
+  .try-btn-container {
+    display: unset;
+    margin-left:2.5em;
+  }
+  .try-btn{
+    padding:0.1em 2em;
+  }
+  .overall-faq-container {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .faq-image {
+    width: 100%;
+  }
+  .faq-image img {
+    width: 100%;
+  }
+  .accordion .item .accordion-header button {
+    font-size:1.38rem;
+  }
+  .accordion .item{
+    font-size:1.38rem;
+  }
+  .testimonial-container {
+    flex-direction: column;
+    width:100%;
+    padding:5em 1em;
+  }
+  .testimonials {
+    flex-direction: column;
+  }
+  .testimonial-container h3 {
+    text-align: center;
+  }
+  .testimonial-container h2 {
+    text-align: center;
+    font-size:3.7rem;
+  }
+  .individual-testimonials{
+    max-width:130%;
+    text-align: center;
+   
+  }
+  .numbers-container {
+    flex-direction: row;
+    width: 45%;
+    margin-top: 1em;
+    padding: 2em 0em;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .testimonial-number {
+    width: 15%;
+    /* height: 40px; */
+  }
+  .each-numbers {
+    width: 15%;
+    text-align: center;
+    border-radius: 50%;
+    /* height: 40px; */
+  }
+  .arrow-left {
+    display: unset;
+  }
+  .arrow-right {
+    display: unset;
+  }
+  .arrow {
+    display: none;
+  }
+  .arrow-down {
+    display: none;
+  }
+  .sign-up-container h1 {
+    width: 85%;
+    font-size: 3.0rem;
+    text-align: left;
+  }
+  .input-container {
+    width: 90%;
+  }
+  .input-container button{
+    padding:0.7em;
+  }
+  footer{
+    padding-left:1.5em;
+  }
+  #fintekk-about {
+    width: 100%;
+  }
+  .footer-links-container {
+    display:unset;
+  }
+  .fintekk-footer{
+    width:100%;
+  }
+  .footer-links {
+    grid-template-columns: 1fr;
+    gap: 10%;
+    padding-right: 2em;
+  }
+  .copyright-container {
+    font-size: 1.3rem;
+  }
+}
+.nav-active{
+  transform: translateX(15px);
+  transition: all 0.5s ease;
+}
