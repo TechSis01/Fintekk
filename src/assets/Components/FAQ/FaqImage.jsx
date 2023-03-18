@@ -1,9 +1,9 @@
-import illustration from '../Images/illustration.png'
 
+import faqImage from "../Images/faqImage.png"
 function FaqImage() {
   return (
     <div className='faq-image'>
-        <img src={illustration} alt="Man asking a question" ></img>
+        <img src={faqImage} alt="Man asking a question" ></img>
     </div>
   )
 }
