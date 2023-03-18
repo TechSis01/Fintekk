@@ -879,19 +879,19 @@ footer {
     top:100%;
     right:52%;
     width:min-content;
-    z-index: -1;
+    
   }
   .saving-icon{
     top:95%;
     right:4%;
     width:min-content;
-    z-index: -1;
+    
   }
   .investment-icon{
     top:112%;
     right:10%;
     width:min-content;
-    z-index: -1;
+    
   }
   .nav-list-container li{
     margin-bottom: 3em;
